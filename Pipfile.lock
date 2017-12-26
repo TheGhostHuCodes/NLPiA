@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f58084b40ab831270cf3ce7e7bbb7a232688d06400c252ffa607735e559bbe6f"
+            "sha256": "83d6afb068fbc83af9c264c450c95c36369e83074ffd34084ef5eded82808982"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -178,6 +178,13 @@
             ],
             "version": "==4.4.0"
         },
+        "nltk": {
+            "hashes": [
+                "sha256:2661f9971d983db314bbebd51ba770811a362c6597fd0f303bb1d3beadcb4834",
+                "sha256:8a3bad9ff7f67d2828a7915c2fab93e6ca910c2015ef40799e1805fccf2354e5"
+            ],
+            "version": "==3.2.5"
+        },
         "notebook": {
             "hashes": [
                 "sha256:8d63d3370800e41888e186af68a49ba7cfa1b2155a5de7fc167969c458872587",
@@ -280,6 +287,7 @@
                 "sha256:e8c43b5eee76b2083a9badde89fd1bbce6c8942d1045146e100b7b5e014f4f1a",
                 "sha256:e64193f0047ad603b71f202332ab5527c5e52aa7c8b609704fc28c0dc20c4365"
             ],
+            "markers": "os_name != 'nt'",
             "version": "==0.5.2"
         },
         "py": {
