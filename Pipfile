@@ -7,10 +7,7 @@ name = "pypi"
 
 [packages]
 
-jupyter = "*"
-numpy = "*"
-pandas = "*"
-nltk = "*"
+nlpia = "*"
 
 
 [dev-packages]
